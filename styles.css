@@ -7,7 +7,6 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding:-1;
   margin-top: -1em;
   background: rgba(0,0,0,0.3);
       }
@@ -19,7 +18,7 @@ h1 {
     }
 
 /* seperated h3 so could format seperately*/
-h3 {
+h2 {
   display:flex;
   justify-content: center;
   align-items:center;
@@ -36,7 +35,7 @@ body {
 .banner {
   display:flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
         }
 
 /* formating for the transparent black box around the form */
@@ -57,5 +56,4 @@ body {
   margin-top:0.5em;
   font-size: 2em;
   border-radius: 0.5em;
-
             }
