@@ -26,7 +26,6 @@ h2 {
     }
 
 /* have put background image here in the body*/
-
 body {
   background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.visme.co%2Fwp-content%2Fuploads%2F2017%2F07%2F50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg&f=1");
     }
@@ -55,5 +54,17 @@ body {
   margin-bottom: 1em;
   margin-top:0.5em;
   font-size: 2em;
+  border:0.1em solid;
   border-radius: 0.5em;
             }
+
+/* submit button */
+input[type="submit"] {
+  background:white;
+  width:10em;
+  height:3em;
+        }
+
+input[type="submit"]:hover {
+background-color:rgba(255,0,0,0.1);
+          }
